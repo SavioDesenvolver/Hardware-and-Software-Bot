@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "aoi.js": "^5.5.5"
+  },
+  "name": "savio",
+  "version": "1.0.0",
+  "description": "bottest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Savio",
+  "license": "ISC"
+}
