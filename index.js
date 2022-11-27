@@ -1,10 +1,10 @@
 const aoijs = require("aoi.js")
 
 const bot = new aoijs.Bot({
-token: "",
+token: "YOU TOKEN",
 prefix: "?",
 mobilePlatform: true,
-intents: ["GUILDS", "GUILD_MESSAGES"]
+intents: ["GUILDS", "GUILD_MESSAGES", "all"]
 })
 
 
@@ -14,6 +14,11 @@ bot.readyCommand({
     code: `$log[Ready on $userTag[$clientID]]`
 })
 bot.onInteractionCreate()
+bot.guildJoinCommand({
+code: `
+$botLeave[$guildID]
+`
+})
 bot.onMessage()
 const loader = new aoijs.LoadCommands(bot);
 loader.load(bot.cmd,'./cmd/')
