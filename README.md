@@ -3,4 +3,4 @@ bot made for the server Hardware and software with the purpose of serving own co
 some commands do not work on common servers for their own reasons, this bot is for use on https://discord.gg/wVmMz8YZdb (Hardware and software), that is, this is just base codes in case you want to use files from this bot
 
 https://cdn.ibakerserver.pt/zpnsHF.png
-![https://cdn.ibakerserver.pt/sfm5JY.png)
+![(https://cdn.ibakerserver.pt/sfm5JY.png)
